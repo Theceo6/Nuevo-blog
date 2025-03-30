@@ -1,24 +1,24 @@
 const posts = [
   {
-    title: "5 ideas creativas para comenzar un proyecto personal",
+    title: "Tendencias creativas para 2025",
     date: "30 de marzo de 2025",
-    summary: "¿Buscas inspiración? Aquí tienes ideas para crear algo increíble desde cero.",
+    summary: "Descubre las ideas visuales y tecnológicas que marcarán este año.",
     link: "post1.html",
-    image: "https://source.unsplash.com/800x400/?creativity,notebook"
+    image: "https://source.unsplash.com/900x400/?trend,design"
   },
   {
-    title: "Herramientas digitales que cambiaron mi vida",
+    title: "Cultura digital: cómo la tecnología cambia nuestra forma de pensar",
     date: "28 de marzo de 2025",
-    summary: "Estas aplicaciones y servicios te ahorrarán tiempo y aumentarán tu productividad.",
+    summary: "Reflexión sobre cómo las redes y herramientas moldean nuestra creatividad.",
     link: "post2.html",
-    image: "https://source.unsplash.com/800x400/?technology,apps"
+    image: "https://source.unsplash.com/900x400/?culture,digital"
   },
   {
-    title: "Cómo mantenerte motivado mientras aprendes algo nuevo",
+    title: "Cómo crear una rutina creativa (y mantenerla)",
     date: "26 de marzo de 2025",
-    summary: "La clave está en la mentalidad, la rutina y celebrar pequeños logros.",
+    summary: "Técnicas reales para producir ideas sin esperar inspiración.",
     link: "post3.html",
-    image: "https://source.unsplash.com/800x400/?motivation,learning"
+    image: "https://source.unsplash.com/900x400/?routine,creative"
   }
 ];
 
