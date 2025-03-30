@@ -1,39 +1,45 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  background: #fefefe;
-  color: #1a1a1a;
+  background: #fdfdfd;
+  color: #222;
 }
 
 header {
-  background: #111;
+  background: #005f73;
   color: white;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.8em;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-top: 10px;
+  opacity: 0.85;
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 nav a {
-  color: #aaa;
+  color: #ffd166;
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: white;
+  color: #fff;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
 }
@@ -41,9 +47,9 @@ nav a:hover {
 .post-preview {
   background: white;
   padding: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s ease;
 }
 
@@ -51,9 +57,14 @@ nav a:hover {
   transform: translateY(-4px);
 }
 
+.post-preview img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
 .post-preview h2 {
   margin-top: 0;
-  color: #111;
 }
 
 .post-preview a {
@@ -64,6 +75,6 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background: #111;
+  background: #005f73;
   color: white;
 }
